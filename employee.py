@@ -28,3 +28,9 @@ def employee_wage(employee_type):
     return switcher.get(employee_type, 0)  
 employee_type = random.choice([0, 1, 2])  
 print(f"Employee Wage (Switch Case): {employee_wage(employee_type)}")
+
+# UC5:
+working_days_per_month = 20
+monthly_wage = working_days_per_month * daily_wage
+print(f"Monthly Employee Wage: {monthly_wage}")
+
